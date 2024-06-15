@@ -1,0 +1,96 @@
+body, html {
+    background-image: url(background.jpg); 
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1280px 770px;
+    font-family:'NanumGothic';
+}
+
+body > div{
+    width: 780px;
+    height: 560px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-left: 7.3cm;
+    margin-right: 7cm;
+    border-radius: 3%;
+}
+
+body img{
+    width: 150px;
+    height: 70px;
+    margin-top: 0.2cm;
+}
+
+body .title{
+    color: rgb(0,221,0);
+    margin-top: 0.1cm;
+}
+
+nav > div{
+    width: 600px;
+    height: 30px;
+    background-color: rgb(0,221,0);
+    border-radius: 0%;
+    margin-left: 1.7cm;
+    margin-left: 1.7cm; /* Usa Flexbox per l'allineamento */
+    display: flex;/*Lo usi per l'allineamento(contenitore)*/
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: center; /* Allinea orizzontalmente gli elementi al centro */
+}
+
+
+input[type="button"] {
+    margin: 0 5px; /* Spaziatura orizzontale tra i pulsanti */
+}
+
+main > div{
+    text-align: left;
+    color: white;
+    padding-left: 1.7cm;
+    font-size: small;
+}
+
+input[type="checkbox"] {
+    transform: scale(0.7);
+} 
+
+div > div{
+    display: flex;
+    line-height: 0.1cm;
+}
+
+div > p{
+    line-height: 0.2cm;
+    padding-top: 0cm;
+}
+ 
+span > h1{
+    width: 150px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 5px; /* Arrotonda solo gli angoli */
+    padding-left: 1.7cm;
+}
+
+span > h2{
+    width: 310px;
+    height: 25px;
+    background-color: lightgreen;
+    border-radius: 5px; /* Arrotonda solo gli angoli */
+    padding-left: 1.7cm;
+}
+
+span > h3{
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px; /* Arrotonda solo gli angoli */
+    padding-left: 1.7cm;
+}
+
+
+
